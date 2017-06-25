@@ -33,6 +33,13 @@ article.smallArticle {
 .selectCat button {
   width: 125px;
 }
+article.card {
+  padding: 0;
+}
+
+article p.articleP {
+  padding: 0 10px;
+}
 
 /* ################# MAIN - END #################### */
 
