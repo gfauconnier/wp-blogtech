@@ -5529,7 +5529,7 @@ button.close {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 15px;
-  border-top: 1px solid #eceeef;
+  /*border-top: 1px solid #eceeef;*/
 }
 
 .modal-footer > :not(:first-child) {

@@ -41,6 +41,16 @@ article p.articleP {
   padding: 0 10px;
 }
 
+form.formModal {
+  padding: 10px;
+}
+form.formModal label, form.formModal input, form.formModal textarea {
+  margin-top: 5px;
+}
+
+textarea {
+  resize: none;
+}
 
 /* ################# MAIN - END #################### */
 
