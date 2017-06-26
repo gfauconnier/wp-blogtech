@@ -38,6 +38,7 @@
   window.onload = tabChange(3);
   window.onload = tempsP();
   window.onload = addCategory();
+  window.onload = imgID();
 </script>
 <?php wp_footer(); ?>
 </body>

@@ -87,3 +87,16 @@ function addCategory() {
     }
   }
 }
+
+//
+function imgID() {
+  var images = document.getElementsByClassName("articleImg");
+  var figc = document.getElementsByClassName("displayAlt");
+  var alt = document.getElementsByClassName("card-header");
+  for (var i = 0; i < images.length; i++) {
+    images[i].src += (i + 1) + ".png";
+    images[i].id = "img" + (i+1);
+    images[i].alt = alt[i].innerHTML;
+    figc[i].id = "art" + (i+1);
+  }
+}

@@ -41,6 +41,7 @@ article p.articleP {
   padding: 0 10px;
 }
 
+
 /* ################# MAIN - END #################### */
 
 /* ################# FOOTER #################### */
@@ -78,10 +79,15 @@ footer nav p, footer nav a {
     position: relative;
   }
 
+  figure img.articleImg {
+    max-width: 90%;
+    margin: auto;
+  }
+
   figcaption {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 3%;
+    left: 10%;
     background-color: grey;
     width: 70vh;
   }
