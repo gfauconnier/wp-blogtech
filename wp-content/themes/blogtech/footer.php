@@ -37,6 +37,7 @@
   // Scripts loaded on page refresh/access. Rest of js in js/main.js
   window.onload = tabChange(3);
   window.onload = tempsP();
+  window.onload = addCategory();
 </script>
 <?php wp_footer(); ?>
 </body>

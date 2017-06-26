@@ -68,3 +68,22 @@ function tempsP() {
 function confirmA() {
   confirm("Are you sure you want to send this comment ?");
 }
+
+// Reads the content of p.categories and adds classes depending of what's returned
+function addCategory() {
+  var cat = document.getElementsByClassName("categories");
+  for (var i = 0; i < cat.length; i++) {
+    var categories = cat[i].innerHTML.split(" ");
+    for (var j = 0; j < categories.length; j++) {
+      if (categories[j] == "Hardware") {
+        cat[i].parentNode.classList.add("hw");
+      }
+      if (categories[j] == "Software") {
+        cat[i].parentNode.classList.add("sw");
+      }
+      if (categories[j] == "Dev") {
+        cat[i].parentNode.classList.add("dev");
+      }
+    }
+  }
+}
