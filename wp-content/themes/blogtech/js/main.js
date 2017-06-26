@@ -95,8 +95,8 @@ function imgID() {
   var alt = document.getElementsByClassName("card-header");
   for (var i = 0; i < images.length; i++) {
     images[i].src += (images.length - i) + ".png";
-    images[i].id = "img" + (i+1);
+    images[i].id = "img" + (images.length - i);
     images[i].alt = alt[i].innerHTML;
-    figc[i].id = "art" + (i+1);
+    figc[i].id = "art" + (images.length - i);
   }
 }

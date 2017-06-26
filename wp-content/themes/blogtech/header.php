@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" href="favicon.png">
+  <link rel="icon" href="<?php echo get_bloginfo('template_directory'); ?>/favicon.png">
   <link href="<?php echo get_bloginfo('template_directory'); ?>/css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/normalize.css">
   <link href="<?php echo get_bloginfo('template_directory'); ?>/css/main.css" rel="stylesheet">
