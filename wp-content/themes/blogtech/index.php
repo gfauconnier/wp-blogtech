@@ -26,12 +26,12 @@
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <form class="formModal" action="index.html" method="post">
-              <label for="">Username : </label>
-              <input type="text" placeholder="Username">
-              <label for="">Title : </label>
-              <input type="text" placeholder="Title">
-              <label for="">Message : </label>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <label for="modalname">Username : </label>
+              <input type="text" name="modalname" id="modalname" placeholder="Username">
+              <label for="modaltitle">Title : </label>
+              <input type="text" name="modaltitle" id="modaltitle" placeholder="Title">
+              <label for="modalmessage">Message : </label>
+              <textarea name="modalmessage" id="modalmessage" cols="30" rows="10"></textarea>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary" onclick="confirmA()">Send</button>
