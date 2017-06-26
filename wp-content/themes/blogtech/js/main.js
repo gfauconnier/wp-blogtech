@@ -88,15 +88,16 @@ function addCategory() {
   }
 }
 
-//
-function imgID() {
+// Auto fills the img nb (depending on the total of posts) + adds id to img and figcaption
+function imgID(nbPost) {
   var images = document.getElementsByClassName("articleImg");
   var figc = document.getElementsByClassName("displayAlt");
   var alt = document.getElementsByClassName("card-header");
+
   for (var i = 0; i < images.length; i++) {
-    images[i].src += (images.length - i) + ".png";
-    images[i].id = "img" + (images.length - i);
+    images[i].src += (nbPost - i) + ".png";
+    images[i].id = "img" + (nbPost - i);
     images[i].alt = alt[i].innerHTML;
-    figc[i].id = "art" + (images.length - i);
+    figc[i].id = "art" + (nbPost - i);
   }
 }
