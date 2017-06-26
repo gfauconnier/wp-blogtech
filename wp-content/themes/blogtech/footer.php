@@ -35,10 +35,10 @@
 
 <script>
   // Scripts loaded on page refresh/access. Rest of js in js/main.js
-  window.onload = tabChange(3);
-  window.onload = tempsP();
-  window.onload = addCategory();
   window.onload = imgID();
+  window.onload = addCategory();
+  window.onload = tempsP();
+  window.onload = tabChange(3);
 </script>
 <?php wp_footer(); ?>
 </body>

@@ -1,6 +1,3 @@
-
-
-
 <article class="col-12 card sw">
   <h3 class="card-header card-primary">reCAPTCHA Android API launched to enable safer Internet usage on Android mobiles</h3>
   <h4>By Blog Tech</h4>
